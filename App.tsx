@@ -848,6 +848,7 @@ function App() {
              >
                <Settings2 size={16} />
                <span>Replace & Convert</span>
+               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">Beta</span>
              </button>
              <button
                 onClick={() => setActiveTab('check')}
@@ -855,7 +856,7 @@ function App() {
              >
                <ShieldCheck size={16} />
                <span>Check Blanks</span>
-               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-800">Coming Soon</span>
+               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">Beta</span>
              </button>
           </nav>
 
