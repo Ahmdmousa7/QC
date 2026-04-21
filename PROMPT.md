@@ -1,7 +1,7 @@
-# Master Prompt: ExcelDiff AI (Advanced Data Suite) v1.2
+# Master Prompt: Sales Onboarding QC v1.2
 
 ## 1. Project Overview & Identity
-**Name:** ExcelDiff AI / Advance Data Comparison Engine
+**Name:** Sales Onboarding QC / Quality Control System
 **Purpose:** A robust, browser-based React web application suite designed to compare, clean, manipulate, and orchestrate large datasets (Excel/CSV files and Images). It runs entirely client-side (except for AI operations) yielding highly secure and extremely fast experiences.
 **Current Version:** v1.2 (Includes Non-Destructive Navigation States & UI Flow retention).
 

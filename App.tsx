@@ -795,7 +795,7 @@ function App() {
               <ArrowRightLeft size={20} strokeWidth={2.5} />
             </div>
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-brand-700 to-brand-500">
-              ExcelDiff AI
+              Sales Onboarding QC
             </span>
           </div>
           
@@ -818,6 +818,7 @@ function App() {
              >
                <ScanLine size={16} />
                <span>Image to Excel</span>
+               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">Beta</span>
              </button>
              <button
                 onClick={() => setActiveTab('clean')}
@@ -832,6 +833,7 @@ function App() {
              >
                <ArrowRightLeft size={16} />
                <span>Mapping</span>
+               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">Beta</span>
              </button>
              <button
                 onClick={() => setActiveTab('splitter')}
@@ -853,6 +855,7 @@ function App() {
              >
                <ShieldCheck size={16} />
                <span>Check Blanks</span>
+               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-800">Coming Soon</span>
              </button>
           </nav>
 
